@@ -11,15 +11,15 @@ nyanCat.addEventListener('touchstart', () => {
 });
 
 const messages = [
-  "Anh yêu em 💕", "Anh thương em 🤗", "I Love You 🥰", "Em thật xinh đẹp",
+  "Anh yêu em Dr.Gifter 💕", "Anh thương em Dr.Gifter🤗", "I Love You Dr.Gifter🥰", "Em thật xinh đẹp",
   "Hạnh phúc nhé 💫", "❤️ Gửi yêu thương ❤️", "Luôn mỉm cười nhé 😊",
-  "Love You 3000 💖", "Cảm ơn vì tất cả 🌸",
-  "Em là một món quà 🎁", "Trái tim này là của em 💘",
-  "Em làm thế giới này đẹp hơn 💐", "Love You In Every Universe",
-  "Em là duy nhất 💞", "Saranghaeyo❤️",
+  "Love You 3000 Dr.Gifter💖", "Cảm ơn vì tất cả 🌸",
+  "Em là một món quà 🎁", "Trái tim này là của em Dr.Gifter💘",
+  "Em làm thế giới này đẹp hơn 💐", "Love You In Every Universe Dr.Gifter",
+  "Em là duy nhất 💞", "Saranghaeyo Dr.Gifter❤️",
   "Anh nhớ em nhiều 🌈", "You Are My Everything 🫶",
   "Yêu em không cần lý do 🏡", "Em là lý do anh luôn mỉm cười 😘",
-  "Anh yêu em vì em là chính em ✨"
+  "Anh yêu em vì em là chính em ✨", "Dr.Gifter"
 ];
 
 function showRandomMessage(event) {
@@ -46,3 +46,4 @@ function showRandomMessage(event) {
 
   setTimeout(() => msg.remove(), 3000);
 }
+
