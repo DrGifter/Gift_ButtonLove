@@ -60,7 +60,8 @@ body {
   position: absolute;
   /* font-size: 1vw; */
   color: #ff4081;
-  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
   background-color: #fff0f6;
   padding: 0.5em 1em;
   border-radius: 10px;
@@ -70,17 +71,22 @@ body {
   opacity: 0;
   animation: fly 3s forwards;
   z-index: 9999;
-  white-space: nowrap;
+  white-space: normal;
+  max-width: 80vw;
+  width: max-content;
+  text-align: center;
+  word-wrap: break-word;
+  word-break: break-word;
 }
 
 @keyframes fly {
   0% {
     opacity: 1;
-    transform: translate(0, 0) scale(1);
+    transform: translate(-50%, -50%) scale(1);
   }
   100% {
     opacity: 0;
-    transform: translate(var(--dx), var(--dy)) scale(1.2);
+    transform: translate(calc(-50% + var(--dx)), calc(-50% + var(--dy))) scale(1.2);
   }
 }
 
@@ -148,21 +154,23 @@ body {
 
 @media (max-width: 768px) {
   .message {
-    font-size: 4vw;
+    font-size: 1.2rem;
+    max-width: 70vw;
   }
 }
 
 @media (max-width: 480px) {
   .key-button {
-    width: 18vw;
-    height: 18vw;
+    width: 25vw;
+    height: 25vw;
   }
 
   .key-button span {
-    font-size: 7vw;
+    font-size: 10vw;
   }
 
   .message {
-    font-size: 3vw;
+    font-size: 1rem;
+    max-width: 85vw;
   }
 }
